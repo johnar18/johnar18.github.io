@@ -1,0 +1,61 @@
+.synopsis {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/8e/Ram_Village_Apartments_UNC_CH_2013.JPG");
+    background-size: cover;
+    background-position: 10% 25%;
+}
+
+.synopsis > p{
+    /* 70px if one line, 42px if two lines */
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px #13294B;
+}
+
+table{
+    margin: auto;
+    font-size: medium;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+#slideshow {
+  overflow: hidden;
+  max-height: 500px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 4000px;
+  -webkit-animation: slide 40s ease infinite;
+}
+
+.slide {
+  float: left;
+  max-height: 500px;
+  max-width: 500px;
+  background-color: #4B9CD3;
+}
+
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  25% {margin-left: -500px;}
+  30% {margin-left: -500px;}
+  35% {margin-left: -1000px;}
+  40% {margin-left: -1000px;}
+  45% {margin-left: -1500px;}
+  50% {margin-left: -1500px;}
+  55% {margin-left: -2000px;}
+  60% {margin-left: -2000px;}
+  65% {margin-left: -2500px;}
+  70% {margin-left: -2500px;}
+  75% {margin-left: -3000px;}
+  80% {margin-left: -3000px;}
+  85% {margin-left: -3500px;}
+  90% {margin-left: -3500px;}
+}

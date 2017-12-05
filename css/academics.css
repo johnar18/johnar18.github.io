@@ -1,0 +1,60 @@
+.synopsis {
+    background-image: url("https://www.goodfreephotos.com/albums/united-states/north-carolina/unc/science-library-annex-stacks-at-unc-chapel-hill-north-carolina.jpg");
+    background-size: cover;
+}
+
+.synopsis > p{
+    /* 70px if one line, 42px if two lines */
+    padding-top: 42px;
+    padding-bottom: 42px;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px #13294B;
+}
+
+table{
+    margin: auto;
+    font-size: medium;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.item{
+    max-height: 500px;
+}
+
+.item > img{
+    margin: 0 auto;
+}
+
+#slideshow {
+  overflow: hidden;
+  max-height: 500px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 2000px;
+  -webkit-animation: slide 18s ease infinite;
+}
+
+.slide {
+  float: left;
+  max-height: 500px;
+  max-width: 500px;
+  background-color: #4B9CD3;
+}
+
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -500px;}
+  50% {margin-left: -500px;}
+  60% {margin-left: -1000px;}
+  70% {margin-left: -1000px;}
+  80% {margin-left: -1500px;}
+  90% {margin-left: -1500px;}
+}
