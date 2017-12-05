@@ -1,0 +1,36 @@
+.synopsis {
+    background-image: url("https://c1.staticflickr.com/8/7192/6800638844_ec9f014d13_b.jpg");
+    background-size: cover;
+    background-position: 10% 35%;
+}
+
+.synopsis > p{
+    /* 70px if one line, 42px if two lines */
+    padding-top: 42px;
+    padding-bottom: 42px;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px #13294B;
+}
+
+li {
+    font-size: medium;
+    padding-bottom: 5px;
+}
+
+.container > p{
+    font-size: large;
+}
+
+figure > img{
+    border: 10px solid #4B9CD3;
+    margin: auto;
+    height: 300px;
+    width: 250px;
+}
+
+#peeps{
+    columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  list-style-type: none;
+}
