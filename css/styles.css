@@ -18,29 +18,41 @@ header{
     background: linear-gradient(to bottom right, white, #4B9CD3); /* Standard syntax (must be last) */
 }
 
-header > h1 {
+#title {
     font-size: 72px;
     margin-top: 45px;
     margin-left: 10px;
     float: left;
     text-shadow: white 1px 0 10px;
+    position: relative;
+    left: 130px;
 }
 
-header > p{
+#subtitle{
     opacity: 0.5;
-    font-size: 3vw;
+    font-size: 2.5vw;
     line-height: 1.5;
     padding-top: 50px;
     vertical-align: middle;
+    position: relative;
+    /*width: 40%;*/
+    right: -19%;
+    /*top: -15px;*/
+    float: left;
 }
 
-home{
-    height: 90px;
+#home{
+    height: 140px;
+    width: 130px;
+    top: 10px;
+    left: 0px;
+    position: absolute;
+    display: inline-block;
 }
 
 a > img {
     height: 90px;
-    margin-top: 30px;
+    margin-top: 23px;
     float: left;
     margin-left: 10px;
 }
